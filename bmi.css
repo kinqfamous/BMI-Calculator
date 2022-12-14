@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 550px);
+    gap: 1em;
+    /* margin-top: 5em; */
+}
+.div_grid{
+    border: solid 0.1em black;
+    border-radius: 2em;
+}
+label{
+    font-size: 45px;
+}
+input{
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right: none; 
+    font-size: 20px;
+    margin-left: 0.5em;
+    outline: none;
+}
+fieldset{
+    margin-top: 9em; 
+    margin-left: 2em;
+    margin-right: 2em;
+    border: none;
+}
+button{
+    font-size: x-large;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2em;
+    padding: 0.5em 1em;
+    margin: 1em 9em;
+}
+.div2{
+    text-align: center;
+    margin-top: 9em;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 30px;
+    margin-top: -1em;
+}
